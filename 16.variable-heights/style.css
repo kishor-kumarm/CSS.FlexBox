@@ -1,0 +1,19 @@
+.cards {
+    display: flex;
+}
+.card {
+    font-size: 1.5rem;
+    border: 4px solid rgb(6, 11, 15);
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.card .footer {
+    padding: 5px;
+    background-color: rgb(143, 141, 139);
+}
+.card .main-body {
+    flex: 1;
+} 

@@ -1,0 +1,32 @@
+nav {
+    font-size: 2rem;
+    background-color: rgb(181, 181, 211);
+    border:0.1rem solid rgb(29, 29, 29);
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    flex: auto;
+    text-align: center;
+}
+nav ul li:hover {
+    background-color: rgb(77, 89, 100);
+    color: white;
+}
+
+@media all and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        text-align: center;
+    }
+}
