@@ -1,5 +1,5 @@
 # CSS_Flexbox
-CSS flexible box module: 1D layout model Basic 
+CSS flexible box module: layout model Basic 
 
 Requirement from CSS model: 
   -Block, for sections in a webpages 
